@@ -1,0 +1,133 @@
+.container{
+    margin: 0 auto;
+    width: 1211px;
+}
+body{
+    font-family: Tahoma,"Hiragino Sans GB","Microsoft YaHei",arial,simsun;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #FD7210;
+}
+#change:hover{
+    color: #FD7210;
+    cursor: pointer;
+}
+.main{
+    min-width: 500px;
+    min-height: 500px;
+}
+.container>div:first-child{
+    padding-left: 150px;
+}
+
+#zhuce{
+    float: right;
+    width: 314px;
+    height: 505px;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    padding-left: 30px;
+    display: inline-block;
+}
+.container>div>.datu{
+    margin-left: 150px;
+    /*float: right;*/
+}
+#zhuce>span:first-child{
+    color: #EF4222;
+    font-size: 26px;
+
+}
+#kuang div:first-child{
+    margin-top: 10px;
+}
+#kuang input{
+    width:270px;
+    height: 28px;
+}
+#zhuce_a{
+    width: 300px;
+    height: 36px;
+    display: block;
+    background-color: #F85B0E;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+body{
+    font-size: 14px;
+}
+.font{
+    font-size: 12px;
+    color:#999999;
+}
+#zhuce a.first-child{
+    color: #3B639F;
+}
+#zhuce a.first-child:hover{
+    color: #FD7210;
+}
+/*.pwd1{*/
+    /*display: inline-block;*/
+/*}*/
+
+.main_button{
+    color:#3B639F ;
+}
+#zhuce hr{
+    border: 1px solid transparent;
+    border-top:1px solid #EAEAEA;
+    margin-top: 60px;
+}
+
+#zhuce_last{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ma_reg_footer hr{
+    border: 1px solid transparent;
+    border-top:1px solid #DDDDDD;
+    margin-top: 100px;
+}
+.qiege{
+    border: 1px solid transparent;
+    border-top:1px solid #DDDDDD;
+    margin-top: 0px;
+}
+#ma_reg_footer{
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+#name_span,#pwd_span,#pwd_span_must{
+    visibility: hidden;
+    height: 20px;
+}
+#img1,#img2,#img3{
+    visibility: hidden;
+}
+#zhuce form .yanzheng{
+    width: 140px;
+
+}
+.choose{
+    margin-top: 10px;
+}
+#change{
+    color: #3B639F;
+}
+#kuang .choose1{
+    display: inline-block;
+    margin-top: 10px;
+    line-height: 25px;
+}
+#kuang .choose1 #c1{
+    float: left;
+}
+

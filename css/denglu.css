@@ -1,0 +1,135 @@
+.container{
+    margin: 0 auto;
+    width: 1211px;
+}
+body{
+    font-family: Tahoma,"Hiragino Sans GB","Microsoft YaHei",arial,simsun;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #FD7210;
+}
+.main{
+    min-width: 500px;
+    min-height: 500px;
+}
+.container>div:first-child{
+    padding-left: 150px;
+}
+
+#denglu{
+    float: right;
+    width: 314px;
+    height: 505px;
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    padding-left: 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.container>div>.datu{
+    margin-left: 150px;
+    /*float: right;*/
+}
+#denglu>span:first-child{
+    color: #EF4222;
+    font-size: 26px;
+}
+#kuang input{
+    width:264px;
+    height: 32px;
+}
+#kuang>div{
+    margin-top: 10px;
+}
+#denglu_a{
+    width: 270px;
+    height: 36px;
+    display: block;
+    background-color: #F85B0E;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+body{
+    font-size: 14px;
+}
+.font{
+    font-size: 12px;
+}
+#denglu>a.first-child{
+    margin-left: 100px;
+    color: #3B639F;
+}
+#denglu>a.first-child:hover{
+    color: #FD7210;
+}
+.pwd1{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.padding{
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    color: #000;
+}
+.main_button{
+    color:#3B639F ;
+}
+.padding>.p1{
+    display: inline-block;
+    margin: 0px;
+    width: 17px;
+    height: 17px;
+    float: left;
+    background:url(../img/denglu/2017-02-23_221931.png) 0 0 no-repeat;
+}
+.padding>.p2{
+    display: inline-block;
+    margin: 0px;
+    width: 17px;
+    height: 17px;
+    float: left;
+    background:url(../img/denglu/2017-02-23_221954.png) 0 0 no-repeat;
+}
+#denglu hr{
+    border: 1px solid transparent;
+    border-top:1px solid #EAEAEA;
+    margin-top: 60px;
+}
+#denglu_check{
+    margin-top: 30px;
+}
+#denglu_last{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ma_reg_footer hr{
+    border: 1px solid transparent;
+    border-top:1px solid #DDDDDD;
+    margin-top: 100px;
+}
+.qiege{
+    border: 1px solid transparent;
+    border-top:1px solid #DDDDDD;
+    margin-top: 0px;
+}
+#ma_reg_footer{
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+#name_span,#pwd_span{
+    visibility: hidden;
+    height: 20px;
+}
